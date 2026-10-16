@@ -2,6 +2,29 @@
 
 See every commit on a GitHub repo's `main` branch since a given date: what was **added**, **removed** and **changed**, and **who** made each change. It's all in one interactive HTML report.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/overview-dark.png">
+  <img alt="Report overview: totals, per-person breakdown and commit list" src="docs/screenshots/overview-light.png">
+</picture>
+
+### Changed lines, side by side, with the changed words highlighted
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/changed-dark.png">
+  <img alt="Changed tab showing before and after lines" src="docs/screenshots/changed-light.png">
+</picture>
+
+### Added and removed lines, grouped by file
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/added-dark.png">
+  <img alt="Added tab showing new lines per file" src="docs/screenshots/added-light.png">
+</picture>
+
+<sub>Screenshots: report for <a href="https://github.com/astral-sh/uv">astral-sh/uv</a> since 2026-09-15.</sub>
+
+## Features
+
 - **Stats at a glance:** commits, people, files touched, and lines added, removed and changed
 - **Per-person breakdown:** click a person to show only their commits
 - **Per-commit tabs:**
